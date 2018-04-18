@@ -27,5 +27,5 @@ jobs:
     steps:
       - checkout
       # run tests!
-      - run: Run gradle tasks
+      - run: ./gradlew test
       
