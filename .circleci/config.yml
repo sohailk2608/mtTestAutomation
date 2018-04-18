@@ -27,5 +27,5 @@ jobs:
     steps:
       - checkout
       # run tests!
-      - run: Run gradle tasks --stacktrace --debug --scan
+      - run: Run gradle tasks
       
