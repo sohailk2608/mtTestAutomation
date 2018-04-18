@@ -27,5 +27,5 @@ jobs:
     steps:
       - checkout
       # run tests!
-      - run: npm install
-      - run: npm test
+      - run: Run gradle tasks --stacktrace --debug --scan
+      
