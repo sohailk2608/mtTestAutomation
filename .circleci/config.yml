@@ -45,4 +45,5 @@ jobs:
         
       # run tests!
       - run: gradle test
-      
+      - run: npm install
+      - run: npm test
